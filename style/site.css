@@ -201,6 +201,28 @@ p {
 	cursor: pointer;
 }
 
+.ref4 {
+	width: 49.8%;
+	height: 350px;
+	margin-left: 2px;
+	margin-top: 2px;
+	background: white url('../images/ref04.jpg') center;
+	background-size: cover;
+	float: left;
+	cursor: pointer;
+}
+
+.ref5 {
+	width: 49.8%;
+	height: 350px;
+	margin-left: 2px;
+	margin-top: 2px;
+	background: white url('../images/ref05.jpg') center;
+	background-size: cover;
+	float: left;
+	cursor: pointer;
+}
+
 .contact {
 	width: 100%;
 	height: 210px;
@@ -462,16 +484,11 @@ p {
 		padding-top: 30px;
 	}
 	
-	.ref0, .ref1, .ref2, .ref3, .ref4, .ref56 {
+	.ref0, .ref1, .ref2, .ref3, .ref4, .ref5, .ref6 {
 		width: 48%;
 		float: left;
 	}
 	
-	.ref5, .ref6 {
-		width: 100%;
-		clear: left;
-	}
-
 	.logo_imgs {
 		padding-top: 30px;
 	}
@@ -610,7 +627,7 @@ p {
 		clear: left;
 	}
 
-	.ref0, .ref1, .ref2, .ref3, .ref4 {
+	.ref0, .ref1, .ref2, .ref3, .ref4, .ref5, .ref6 {
 		width: 100%;
 		height: 200px;
 		clear: left;
