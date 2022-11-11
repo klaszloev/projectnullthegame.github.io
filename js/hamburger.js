@@ -12,7 +12,6 @@ $(".hamburger").click(function() {
         .stop()
         .animate({
             right: '-200px',
-            height: '100px',
             width: '150px'
           }, 200)
         .delay(400).queue(function() {
@@ -25,7 +24,6 @@ $(".hamburger").click(function() {
         .stop()
         .animate({
           right: '0px',
-          height: '100px',
           width: '150px'
         }, 200)
         ;

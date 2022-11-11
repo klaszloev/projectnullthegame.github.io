@@ -23,9 +23,25 @@ body {
 	font-weight: 600;
 }
 
+#yt_img_top {
+	width: 40px; 
+	float: right; 
+	margin: -10px 0 0 0;
+}
+
+#yt_img_bottom {
+	width: 40px; 
+	float: left; 
+	margin: -10px 10px 0 0;
+}
+
+#yt_img_menu {
+	width: 40px; 
+}
+
 #navmenu {
 	width: 150px;
-	height: 100px;
+	height: 140px;
 	padding: 10px;
 	position: absolute;
 	-webkit-transition: .5s ease-in-out;
@@ -36,6 +52,8 @@ body {
 	top: 95px;
 	background: #05aaf8;
 	display: none;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 0px;
 }
 
 #navmenu a {
