@@ -120,36 +120,6 @@ h3 {
 	padding-left: 50px;
 }
 
-#slider {
-	height: 120px;
-}
-
-.slider_img {
-	height: 110px;
-	width: 140px;
-	text-align: center;
-}
-
-.slider_img img {
-	height: 110px;
-	margin-left: auto; margin-right: auto;
-}
-
-.slider_img2 {
-	height: 110px;
-	width: 220px;
-	text-align: center;
-}
-
-.slider_img2 img {
-	height: 110px;
-	margin-left: auto; margin-right: auto;
-}
-
-.slick-side {
-	text-align: center!;
-}
-
 .row {
 	width: 80%;
 	padding-left: 10%;
@@ -263,8 +233,6 @@ p {
 	display: inline-block;
 	text-transform: uppercase;
 }
-
-.slick-slide, .slick-slide *{ outline: none !important; }
 
 .arrow {
 	font-size:36px;
