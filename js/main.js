@@ -32,44 +32,40 @@ $(document).ready(function() {
 function throttle(func, timeFrame) {
     var lastTime = 0;
     return function(...args) {
-      var now = new Date().getTime();
-      if (now - lastTime >= timeFrame) {
-        func(...args);
-        lastTime = now;
-      }
+        var now = new Date().getTime();
+        if (now - lastTime >= timeFrame) {
+            func(...args);
+            lastTime = now;
+        }
     };
-  }
-  
-  // get the theme color on load so we can revert to this
-  const ogColor = document.querySelector('meta[name="theme-color"]')?.getAttribute('content');
-  
-  // handle scroll event
-  const handleScroll = throttle(() => {
-    // find all tags that have `data-scroll as a property`
-    const targets = document.querySelectorAll('[data-scroll-theme]')
+}
+
+// get the theme color on load so we can revert to this
+const ogColor = document.querySelector('meta[name="theme-color"]')?.getAttribute('content');
+// find all tags that have `data-scroll as a property`
+const targets = document.querySelectorAll('[data-scroll-theme]')
+
+// handle scroll event
+const handleScroll = throttle(() => {
     // are any targets at the top of the window?
     const isTop = Array.from(targets).map((target) => {
-      const rect = target.getBoundingClientRect();
-      if (rect.y > 1) {
-        return null;
-      }
-      return { target, rect }
+        const rect = target.getBoundingClientRect();
+        if (rect.y > 1) return null;
+        return { target, rect }
     }).filter(Boolean).sort((a, b) => b.rect.y - a.rect.y)[0]
     // if we found an element at the top of the document then
     if (isTop) {
-  
-      // set theme color meta tag to the background color of div
-      const color = window.getComputedStyle(isTop.target).getPropertyValue('background-color')
-      if (color) {
-        // find the theme color meta tag and set the attribute to it
-        document.querySelector('meta[name="theme-color"]')?.setAttribute('content', color);
-      }
+        // set theme color meta tag to the background color of div
+        const color = window.getComputedStyle(isTop.target).getPropertyValue('background-color')
+        if (color) {
+            // find the theme color meta tag and set the attribute to it
+            document.querySelector('meta[name="theme-color"]')?.setAttribute('content', color);
+        }
     } else if (ogColor) {
-      // set theme color meta tag to original
-      document.querySelector('meta[name="theme-color"]')?.setAttribute('content', ogColor);
+        // set theme color meta tag to original
+        document.querySelector('meta[name="theme-color"]')?.setAttribute('content', ogColor);
     }
-    // run every 100ms
-  }, 100)
-  
-  document.addEventListener('scroll', handleScroll, { passive: true })
-  
+    // run every 10ms
+}, 10)
+
+document.addEventListener('scroll', handleScroll, { passive: true })
