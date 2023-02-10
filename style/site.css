@@ -39,6 +39,16 @@ html, body {
 	width: 40px; 
 }
 
+#yttrailer {
+	width: 800px; 
+	height: 500px;
+}
+
+#yttrailer_out {
+	width: 50%; 
+	margin: 0 auto;
+}
+
 #navmenu {
 	width: 150px;
 	height: 140px;
@@ -639,4 +649,18 @@ p {
 		padding-left: 5%;
 		padding-right: 5%;
 	}
+}
+
+
+@media (max-width: 700px) {
+
+	#yttrailer_out {
+		width: 100%; 
+	}
+
+	#yttrailer {
+		width: 480px; 
+		height: 320px;
+	}
+
 }
