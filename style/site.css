@@ -12,7 +12,7 @@ html, body {
 }
 
 #the_body {
-	background:white;
+	background:black;
 }
 
 #title_down {
@@ -30,7 +30,9 @@ html, body {
 }
 
 #big_icon {
-	height: 80px; 
+	height: 80px;
+	filter: grayscale(100%); 
+	opacity: 0.5;
 }
 
 .wishlist {
@@ -68,14 +70,13 @@ html, body {
 	transition: .5s ease-in-out;
 	right:-200px;
 	top: 95px;
-	background: #0570ad;
 	display: none;
 	border-bottom-left-radius: 20px;
 	border-bottom-right-radius: 0px;
 }
 
 #navmenu a {
-	color: white;
+	color: #3392f6;
 	text-decoration: none;
 	font-size: 18px;
 	text-transform: uppercase;
@@ -150,13 +151,15 @@ h3 {
 
 .pictures, .videos {
 	text-align: left;
-	background: white;
+	background: #000;
+	color: #efefef;
 	padding-top: 30px;
 	height: auto;
 }
 
 .videos {
-	background: #efefef;
+	background: #111;
+	color: #efefef;
 }
 
 p {
@@ -179,7 +182,7 @@ p {
 	width: 49.8%;
 	height: 350px;
 	margin-left: 2px;
-	background: white url('../images/ref00.jpg') center;
+	background: black url('../images/ref00.jpg') center;
 	background-size: cover;
 	float: left;
 	clear: left;
@@ -190,7 +193,7 @@ p {
 	width: 49.8%;
 	height: 350px;
 	margin-left: 2px;
-	background: white url('../images/ref01.jpg') center;
+	background: black url('../images/ref01.jpg') center;
 	background-size: cover;
 	float: left;
 	cursor: pointer;
@@ -213,7 +216,7 @@ p {
 	height: 350px;
 	margin-left: 2px;
 	margin-top: 2px;
-	background: white url('../images/ref03.jpg') center;
+	background: black url('../images/ref03.jpg') center;
 	background-size: cover;
 	float: left;
 	cursor: pointer;
@@ -224,7 +227,7 @@ p {
 	height: 350px;
 	margin-left: 2px;
 	margin-top: 2px;
-	background: white url('../images/ref04.jpg') center;
+	background: black url('../images/ref04.jpg') center;
 	background-size: cover;
 	float: left;
 	cursor: pointer;
@@ -235,7 +238,7 @@ p {
 	height: 350px;
 	margin-left: 2px;
 	margin-top: 2px;
-	background: white url('../images/ref05.jpg') center;
+	background: black url('../images/ref05.jpg') center;
 	background-size: cover;
 	float: left;
 	cursor: pointer;
@@ -244,14 +247,14 @@ p {
 .contact {
 	width: 100%;
 	height: 210px;
-	background: linear-gradient(#05aaf8, #0570ad);
-	color: white;
+	background: #000;
+	color: #efefef;
 	clear: both;
 	padding-top: 30px;
 }
 
 .contact a {
-	color: #fff;
+	color: #3392f6;
 	text-decoration: none;
 	font-size: 15px;
 	font-family: arial;
@@ -302,8 +305,8 @@ p {
 	width: 100%;
 	height: auto;
 	margin-top: 0px;
-	background-color: #efefef;
-	color: black;
+	background-color: #111;
+	color: #efefef;
 	padding-top: 30px;
 	clear: both;
 }
@@ -311,8 +314,8 @@ p {
 .social {
 	width: 100%;
 	height: 82px;
-	background-color: #ffffff;
-	color: black;
+	background-color: #000;
+	color: #efefef;
 	padding-bottom: 2px;
 	padding-top: 2px;
 	clear: left;
@@ -349,16 +352,16 @@ p {
 }
 
 .head {
-	background: linear-gradient(#05aaf8, #0570ad);
+	background: #111;
 	width: 100%;
-	height: 126px;
+	height: 130px;
 }	
 
 #head_logo {
 	width: 50%;
 	height: 80px;
 	float: left;
-	color: white;
+	color: #3392f6;
 	padding-top: 50px;
 }	
 
@@ -372,7 +375,7 @@ p {
 }	
 
 #head_menu a {
-	color: white;
+	color: #3392f6;
 	text-decoration: none;
 	font-size: 15px;
 	text-transform: uppercase;
@@ -391,7 +394,7 @@ p {
 }
   
 .about a {
-	color: #0347a4;
+	color: #3392f6;
 	text-decoration: none;
 	font-size: 15px;
 	font-family: arial;
@@ -480,7 +483,7 @@ p {
 	position: relative;
 	width: 21px;
 	height: 21px;
-	background-color: #222;
+	background-color: #111;
 	margin-bottom: 5px;
 	text-align: center;
 	top: 2px;
@@ -495,7 +498,7 @@ p {
 	position: relative;
 	width: 21px;
 	height: 21px;
-	background-color: #222;
+	background-color: #111;
 	margin-bottom: 5px;
 	text-align: center;
 	top: 2px;
@@ -551,7 +554,7 @@ p {
 		width: 100%;
 		height: 92px;
 	}
-	
+
 	#big_icon {
 		height: 60px; 
 	}
@@ -628,7 +631,7 @@ p {
 		position: relative;
 		width: 21px;
 		height: 21px;
-		background-color: #222;
+		background-color: #111;
 		margin-bottom: 5px;
 		text-align: center;
 		top: 2px;
