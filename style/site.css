@@ -153,7 +153,6 @@ h3 {
 
 .pictures, .videos {
 	text-align: left;
-	background: #000;
 	color: #efefef;
 	padding-top: 30px;
 	height: auto;
@@ -161,6 +160,7 @@ h3 {
 
 .videos {
 	color: #efefef;
+	background-color: #111;
 }
 
 p {
@@ -321,6 +321,7 @@ p {
 	width: 100%;
 	height: auto;
 	margin-top: 0px;
+	background-color: #111;
 	color: #efefef;
 	padding-top: 20px;
 	clear: both;
