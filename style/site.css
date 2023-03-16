@@ -72,9 +72,8 @@ html, body {
 	right:-200px;
 	top: 70px;
 	display: none;
-	border-bottom-left-radius: 20px;
-	border-bottom-right-radius: 0px;
 	background-color: black;
+	border-left: #efefef solid 1px;
 }
 
 #navmenu a {
@@ -188,7 +187,6 @@ p {
 	background-size: cover;
 	float: left;
 	clear: left;
-	cursor: pointer;
 }
 
 .ref1 {
@@ -198,7 +196,6 @@ p {
 	background: black url('../images/ref01.jpg') center;
 	background-size: cover;
 	float: left;
-	cursor: pointer;
 }
 
 .ref2 {
@@ -210,7 +207,6 @@ p {
 	background-size: cover;
 	float: left;
 	clear: left;
-	cursor: pointer;
 }
 
 .ref3 {
@@ -221,7 +217,6 @@ p {
 	background: black url('../images/ref03.jpg') center;
 	background-size: cover;
 	float: left;
-	cursor: pointer;
 }
 
 .ref4 {
@@ -232,7 +227,7 @@ p {
 	background: black url('../images/ref04.jpg') center;
 	background-size: cover;
 	float: left;
-	cursor: pointer;
+	clear: left;
 }
 
 .ref5 {
@@ -243,7 +238,27 @@ p {
 	background: black url('../images/ref05.jpg') center;
 	background-size: cover;
 	float: left;
-	cursor: pointer;
+}
+
+.ref6 {
+	width: 49.8%;
+	height: 350px;
+	margin-left: 2px;
+	margin-top: 2px;
+	background: black url('../images/ref06.jpg') center;
+	background-size: cover;
+	float: left;
+	clear: left;
+}
+
+.ref7 {
+	width: 49.8%;
+	height: 350px;
+	margin-left: 2px;
+	margin-top: 2px;
+	background: black url('../images/ref07.jpg') center;
+	background-size: cover;
+	float: left;
 }
 
 .contact {
@@ -686,7 +701,8 @@ p {
 	}
 
 	.head {
-		margin-top: -50px;
+		margin-top: -55px;
+		margin-bottom: -10px;
 	}	
 }
 
@@ -694,7 +710,8 @@ p {
 @media (max-width: 700px) {
 
 	.head {
-		margin-top: -50px;
+		margin-top: -55px;
+		margin-bottom: -10px;
 	}	
 
 	.social {
