@@ -593,5 +593,9 @@ p {
 		width: 300px; 
 		margin: auto;
 	}
+
+	.arrow_to_right_up {
+		right: 20vw;
+	}	
 		
 }
