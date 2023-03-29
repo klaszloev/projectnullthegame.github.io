@@ -300,8 +300,22 @@ p {
 	opacity: 0.5;
 }
 
-.arrow_to_right_up {
-	right: 30vw;
+#arrow_center_up_middle {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	height: auto;
+	width: 100%;
+	text-align:center;
+	color: #efefef;
+}
+
+#arrow_center_up_down {
+	padding-top: 5px;
+	padding-bottom: 25px;
+	height: auto;
+	width: 100%;
+	text-align:center;
+	color: #efefef;
 }
 
 .about {
@@ -594,8 +608,4 @@ p {
 		margin: auto;
 	}
 
-	.arrow_to_right_up {
-		right: 20vw;
-	}	
-		
 }
