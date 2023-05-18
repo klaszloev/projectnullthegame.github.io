@@ -571,6 +571,10 @@ p {
 
 @media (max-width: 700px) {
 
+	#kl_games_logo {
+		height: 25px;
+	}
+
 	.head {
 		width: 350px;
 		margin-top: -55px;
