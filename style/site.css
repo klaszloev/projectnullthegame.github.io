@@ -43,6 +43,18 @@ html, body {
 	opacity: 1;
 }
 
+#kl_games_logo {
+	height: 30px;
+	filter: grayscale(100%); 
+	-webkit-filter: grayscale(100%); 
+	opacity: 0.7;
+}
+
+#kl_games_logo:hover {
+	cursor: pointer;
+	opacity: 1;
+}
+
 .wishlist {
 	width: 160px; 
 }
